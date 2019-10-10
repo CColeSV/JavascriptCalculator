@@ -37,6 +37,7 @@ body {
 
 #answer {
     padding-right: 7px;
+    font-size: 2rem;
 }
 
 #calc-container {
@@ -49,6 +50,10 @@ body {
 .calc-class{
     justify-self: center;
     align-self: center;
+}
+
+#calc-container > * {
+    cursor: pointer;
 }
 
 .numbers{
